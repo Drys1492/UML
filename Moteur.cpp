@@ -1,34 +1,36 @@
-#ifndef Moteur_cpp
-#define Moteur_cpp
-#include <iostream>
-#include <string>
+/**************************************************//*
+* \file Moteur.cpp
+* \brief Declaration de la classe Moteur
+*
+* \author Drystan
+* \date Septembre 2025
+***************************************************/
+
+
+#include "Moteur.h"
+#include "UML.cpp"
+
+using namespace std;
+
+ 
+
+Moteur::Moteur() {
+
+this->puissance = "125cc"
 
 
 
-class Moteur 
+}
+
+Moteur::Moteur() {
+
+
+}
+
+
 
 {
 
 
-private:
-
-
-
-
-
-
-protected:
-
-
-
-
-public:
-
-
-
-
-
-
-
-
 };
+#endif

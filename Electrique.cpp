@@ -1,34 +1,45 @@
-#ifndef Electrique_cpp
-#define Electrique_cpp
-#include <iostream>
-#include <string>
+/*************************************************************************//**
+* \file Electrique.cpp
+* \brief Definition de la classe Electrique
+* 
+* 
+* \author Drystan
+* \version 0.1
+* date Septembre 2025
+* 
+* Programme CPP permettant de creer des objet pour decrir le moteur electrique
+*****************************************************************************/
 
+#include "Electrique.h"
+#include "UML.cpp"
 
- 
-class Electrique
+using namespace std;
 
-{
+Electrique::Electrique(){
 
+	this->tensionMaxMax = "5V";
 
-private:
-
-
-
-
-
-
-protected:
-
-
-
-
-public:
+	}
 
 
 
 
+/**
+* \brief Constructeur 
+
+*/
+Electrique::Electrique() {
 
 
+	std::cout << "Construteur" << std::endl;
+}
 
 
-};
+/**
+* \brief Destructeur 
+
+*/
+Electrique::~Electrique() {
+
+	std::cout << "Destructeur" << std::endl;
+}
