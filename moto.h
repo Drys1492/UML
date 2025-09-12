@@ -13,19 +13,28 @@
 
 
 
-class moto
+class Moto
 {
 
     private:
   
+        int Poids;
 
-
+        std::string Moteur;
 
     protected : 
 
 
 
     public:
+        Moto();
+        ~Moto();
+        std::string getPoids();
+        void setPoids(std::string deux_cent);
+        std::string getMoteur();
+        void setMoteur(std::string quatre_cylindres);
+        
+
 
        
 };

@@ -13,21 +13,30 @@
 
 
 
-class conducteur
+class Conducteur
 {
 
-    private:
-        
+private:
+
+    std::string NomConducteur;
+
+    std::string PrenomConducteur;
+
+    std::string AnneeNaissance;
+
+    std::string MesMoto;
+
+
+protected:
 
 
 
-    protected : 
-
-
-
-    public:
-        
-       
+public:
+    Conducteur();
+    ~Conducteur();
+    std::string getNom();
+    std::string gePrenom();
+    std::string getAnneeNaissance();
 };
 
 #endif

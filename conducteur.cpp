@@ -2,32 +2,39 @@
  * \file   conducteur.h
  * \brief  Declaration de la classe conducteur
  * 
- * \author Pierre
- * \date   June 2023
+ * \author lenny
+ * \date   Septembre 2025
  *********************************************************************/
 
-#ifndef conducteur_H
-#define conducteur_H
+
 #include <iostream>
 #include <string>
+#include "conducteur.h"
 
 
 
-class conducteur
+Conducteur::Conducteur() {
+
+	std::cout << "conducteur" << std::endl;
+}
+
+Conducteur::~Conducteur() {
+
+	std::cout << "aurevoir_conducteur" << std::endl;;
+}
+
+
+std::string Conducteur::getNom()
 {
+	return std::string();
+}
 
-    private:
-        
+std::string Conducteur::gePrenom()
+{
+	return std::string();
+}
 
-
-
-    protected : 
-
-
-
-    public:
-        
-       
-};
-
-#endif
+std::string Conducteur::getAnneeNaissance()
+{
+	return std::string();
+}
